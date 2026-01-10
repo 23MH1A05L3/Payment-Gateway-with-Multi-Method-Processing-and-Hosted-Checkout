@@ -118,6 +118,7 @@ Merchant Name : Test Merchant
 Email : test@example.com
 
 API KEY : key_test_abc123
+
 API SECRET : secret_test_xyz789
 
 
@@ -159,7 +160,7 @@ Steps:
 
 Expected behavior:
 - Status shows `processing`
-- Within 1–2 seconds → `success`
+- Within 1–2 seconds → `success` or `failure`
 
 ⚠️ If it stays on `processing`, refresh once (acceptable in test mode).
 
@@ -199,6 +200,7 @@ http://localhost:3002
 The test merchant is automatically created when the backend starts.
 
 API Key    : key_test_abc123
+
 API Secret : secret_test_xyz789
 
 ### 🧭 Login Flow
@@ -219,7 +221,7 @@ All Payments
 
 Payment status (processing / success / failed)
 
-Failure reasons (if any)
+Failure reasons (eg : Insufficient funds)
 
 Auto refresh every 5 seconds
 
@@ -260,3 +262,4 @@ Click the Logout button to clear credentials and return to login page.
 This project demonstrates a **complete payment gateway workflow** with backend APIs, database persistence, hosted checkout, merchant dashboard, and Dockerized deployment.
 
 It is **fully functional**.
+
