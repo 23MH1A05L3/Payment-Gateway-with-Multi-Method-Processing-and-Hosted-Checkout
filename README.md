@@ -115,6 +115,7 @@ No manual database setup is required.
 
 #### Test Merchant Credentials:
 Merchant Name : Test Merchant
+
 Email : test@example.com
 
 API KEY : key_test_abc123
@@ -286,4 +287,5 @@ Click the Logout button to clear credentials and return to login page.
 This project demonstrates a **complete payment gateway workflow** with backend APIs, database persistence, hosted checkout, merchant dashboard, and Dockerized deployment.
 
 It is **fully functional**.
+
 
