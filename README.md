@@ -118,6 +118,7 @@ Merchant Name : Test Merchant
 Email : test@example.com
 
 API KEY : key_test_abc123
+
 API SECRET : secret_test_xyz789
 
 
@@ -219,6 +220,7 @@ http://localhost:3000
 The test merchant is automatically created when the backend starts.
 
 API Key    : key_test_abc123
+
 API Secret : secret_test_xyz789
 
 ### 🧭 Login Flow
@@ -250,7 +252,11 @@ Click the Logout button to clear credentials and return to login page.
 ### Evaluation Note
 
 ✔ Dashboard login uses merchant API credentials
+
+
 ✔ No hardcoded frontend access
+
+
 ✔ Aligned with real-world payment gateway behavior
 
 ---
@@ -280,3 +286,4 @@ Click the Logout button to clear credentials and return to login page.
 This project demonstrates a **complete payment gateway workflow** with backend APIs, database persistence, hosted checkout, merchant dashboard, and Dockerized deployment.
 
 It is **fully functional**.
+
